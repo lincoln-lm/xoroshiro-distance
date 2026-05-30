@@ -1,0 +1,10 @@
+[project]
+name = "xoroshiro-distance"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["galois>=0.4.11", "numba-pokemon-prngs[numba]"]
+
+[tool.uv.sources]
+numba-pokemon-prngs = { git = "https://github.com/Lincoln-LM/numba_pokemon_prngs" }
